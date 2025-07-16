@@ -1623,7 +1623,6 @@ var ScrollToTop = () => {
 var ScrollToTop_default = ScrollToTop;
 
 // client/src/App.tsx
-import { HelmetProvider } from "react-helmet-async";
 import { jsx as jsx13, jsxs as jsxs9 } from "react/jsx-runtime";
 function Router() {
   return /* @__PURE__ */ jsxs9(Routes, { children: [
@@ -1633,11 +1632,11 @@ function Router() {
   ] });
 }
 function App() {
-  return /* @__PURE__ */ jsx13(HelmetProvider, { children: /* @__PURE__ */ jsxs9(QueryClientProvider, { client: queryClient, children: [
+  return /* @__PURE__ */ jsxs9(QueryClientProvider, { client: queryClient, children: [
     /* @__PURE__ */ jsx13(ScrollToTop_default, {}),
     /* @__PURE__ */ jsx13(Layout_default, { children: /* @__PURE__ */ jsx13(Router, {}) }),
     /* @__PURE__ */ jsx13(Toaster, {})
-  ] }) });
+  ] });
 }
 var App_default = App;
 
