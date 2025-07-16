@@ -30,7 +30,7 @@ import ScrollToTop from "./components/common/ScrollToTop.tsx";
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<TermsOfService />} />
       {/* <Route path="/features" component={Features} />
       <Route path="/use-cases" component={UseCases} />
       <Route path="/pricing" component={Pricing} />
